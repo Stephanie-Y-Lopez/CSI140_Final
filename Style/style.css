@@ -1,0 +1,77 @@
+header{
+    img {display: block;margin: auto;}
+    position: relative;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    height: 400px;
+    color: black;
+}
+
+.nav-bar{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgb(231, 194, 146);
+    border: 15px solid rgb(238, 178, 117);
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    a:link {text-decoration: none;}
+    a:hover {text-decoration: underline;}
+    a {color: black;}
+}
+
+.banner_text{
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background-color: rgb(223, 164, 105);
+}
+
+.categories{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+
+.Aquatic{
+    background-color: #f1f1f1;
+    width: 50%;
+    margin: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.Terrestrial{
+    background-color: #f1f1f1;
+    width: 50%;
+    margin: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.Avian{
+    background-color: #f1f1f1;
+    width: 50%;
+    margin: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
